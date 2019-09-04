@@ -16,7 +16,7 @@ router.get('/:name', (req, res) => {
     res.send(`Hello, ${name}`)
 })
 
-module.export = router;
+module.exports = router;
 
 
 
