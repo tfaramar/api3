@@ -19,4 +19,8 @@ React applications are broken up into components; express APIs are broken up int
 
 //Client Server Architecture
 
-[client] <> [api] <> [data sources]
+[client] <network (JSON)> [api] <> [data sources]
+
+//Request/Response Cycle
+
+Client makes a request to server. Server produces a response and sends it to the client.
