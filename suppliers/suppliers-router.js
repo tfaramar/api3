@@ -1,5 +1,5 @@
 //Exercise: implement suppliers sub-router
-const express = request('express');
+const express = require('express');
 
 const router = express.Router();
 
