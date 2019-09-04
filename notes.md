@@ -23,4 +23,22 @@ React applications are broken up into components; express APIs are broken up int
 
 //Request/Response Cycle
 
-Client makes a request to server. Server produces a response and sends it to the client.
+1. Client makes a request to server. 
+2. Server produces a response and sends it to the client.
+
+//Middleware 
+
+-can see the request and do something with the information from the request
+-can stop the request and produce a response
+-can do nothing 
+-can do the same (all the above) with the response object
+-***can modify the request or response objects***
+
+Three types:
+-built-in: no need to npm/yarn install
+-third party: need to npm/yarn install
+-custom: we build it ourselves
+
+Can be used:
+-globally with server.use()
+-locally at a request handler
